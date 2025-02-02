@@ -101,7 +101,7 @@ elif option == "Pengaruh Cuaca":
     ax.set_title("Hubungan Kelembaban dengan Jumlah Peminjaman Sepeda")
     st.pyplot(fig)
     
-     st.write("Insight: Kelembaban tinggi dapat menurunkan peminjaman sepeda")
+    st.write("Insight: Kelembaban tinggi dapat menurunkan peminjaman sepeda")
     
     # Kecepatan Angin vs Jumlah Peminjaman
     fig, ax = plt.subplots(figsize=(8, 5))
