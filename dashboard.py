@@ -28,8 +28,8 @@ st.write(hour_df.head())
 # st.write(hour_df.isnull().sum())
 
 # 4. Exploratory Data Analysis (EDA)
-st.sidebar.header("Pilih Analisis")
-option = st.sidebar.selectbox(
+st.header("Pilih Analisis")
+option = st.selectbox(
     "Pilih Analisis:",
     ["Peminjaman Berdasarkan Musim", "Hari Kerja vs Libur", "Kondisi Cuaca", "Tren Peminjaman Sepanjang Hari", "Pengaruh Cuaca"]
 )
