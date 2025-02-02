@@ -78,7 +78,7 @@ elif option == "Tren Peminjaman Sepanjang Hari":
     ax.grid(True)
     st.pyplot(fig)
     
-     st.write("Insight: Peminjaman tertinggi terjadi pada jam 8 pagi dan 5 sore")
+    st.write("Insight: Peminjaman tertinggi terjadi pada jam 8 pagi dan 5 sore")
 
 elif option == "Pengaruh Cuaca":
     st.subheader("Pengaruh Faktor Cuaca Terhadap Peminjaman Sepeda")
