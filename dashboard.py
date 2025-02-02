@@ -44,7 +44,7 @@ if option == "Peminjaman Berdasarkan Musim":
     ax.set_title("Jumlah Peminjaman Sepeda Berdasarkan Musim")
     st.pyplot(fig)
     
-    # Insight: Musim gugur memiliki jumlah peminjaman tertinggi
+    st.write("Insight: Musim gugur memiliki jumlah peminjaman tertinggi")
 
 elif option == "Hari Kerja vs Libur":
     fig, ax = plt.subplots(figsize=(8, 5))
@@ -55,7 +55,7 @@ elif option == "Hari Kerja vs Libur":
     ax.set_title("Jumlah Peminjaman Sepeda pada Hari Kerja vs Hari Libur")
     st.pyplot(fig)
     
-    # Insight: Hari kerja memiliki jumlah peminjaman lebih tinggi
+    st.write("Insight: Hari kerja memiliki jumlah peminjaman lebih tinggi")
 
 elif option == "Kondisi Cuaca":
     fig, ax = plt.subplots(figsize=(8, 5))
@@ -66,7 +66,7 @@ elif option == "Kondisi Cuaca":
     ax.set_title("Jumlah Peminjaman Sepeda Berdasarkan Kondisi Cuaca")
     st.pyplot(fig)
     
-    # Insight: Cuaca cerah memiliki peminjaman tertinggi
+    st.write("Insight: Cuaca cerah memiliki peminjaman tertinggi")
 
 elif option == "Tren Peminjaman Sepanjang Hari":
     fig, ax = plt.subplots(figsize=(12, 6))
@@ -78,7 +78,7 @@ elif option == "Tren Peminjaman Sepanjang Hari":
     ax.grid(True)
     st.pyplot(fig)
     
-    # Insight: Peminjaman tertinggi terjadi pada jam 8 pagi dan 5 sore
+     st.write("Insight: Peminjaman tertinggi terjadi pada jam 8 pagi dan 5 sore")
 
 elif option == "Pengaruh Cuaca":
     st.subheader("Pengaruh Faktor Cuaca Terhadap Peminjaman Sepeda")
@@ -91,7 +91,7 @@ elif option == "Pengaruh Cuaca":
     ax.set_title("Hubungan Suhu dengan Jumlah Peminjaman Sepeda")
     st.pyplot(fig)
     
-    # Insight: Semakin tinggi suhu, semakin banyak peminjaman sepeda
+    st.write("Insight: Semakin tinggi suhu, semakin banyak peminjaman sepeda")
     
     # Kelembaban vs Jumlah Peminjaman
     fig, ax = plt.subplots(figsize=(8, 5))
@@ -101,7 +101,7 @@ elif option == "Pengaruh Cuaca":
     ax.set_title("Hubungan Kelembaban dengan Jumlah Peminjaman Sepeda")
     st.pyplot(fig)
     
-    # Insight: Kelembaban tinggi dapat menurunkan peminjaman sepeda
+     st.write("Insight: Kelembaban tinggi dapat menurunkan peminjaman sepeda")
     
     # Kecepatan Angin vs Jumlah Peminjaman
     fig, ax = plt.subplots(figsize=(8, 5))
@@ -111,7 +111,7 @@ elif option == "Pengaruh Cuaca":
     ax.set_title("Hubungan Kecepatan Angin dengan Jumlah Peminjaman Sepeda")
     st.pyplot(fig)
     
-    # Insight: Kecepatan angin tinggi dapat mengurangi jumlah peminjaman
+    st.write("Insight: Kecepatan angin tinggi dapat mengurangi jumlah peminjaman")
 
 # 5. Kesimpulan
 st.subheader("Kesimpulan")
